@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredericka+the+Great&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&family=Train+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.text {
+    margin-left: -23px;
+}
+
+.banner-container {
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background-color: rgb(89, 69, 179);
+}
+
+.banner-text {
+    color: black !important;
+}
+
+#designation {
+    font-weight: bold;
+}
+
+.name {
+    font-family: 'Arizonia', cursive;
+    color: #fdfff9;
+    font-weight: normal;
+    padding-left: 10px;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+.name:hover {
+    color: rgb(247, 104, 48) !important;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    color: #fdfff9;
+}
+
+.nav-link:hover {
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    background-color: #333333;
+}
+
+.navbar-container {
+    top: 0;
+    padding: 10px;
+    position: sticky;
+    z-index: 2;
+    background-color: #404040;
+}
+
+.parts {
+    margin-left: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+.about-container {
+    background-image: linear-gradient(to bottom right, #f5f5ef, #fdfff9);
+}
+
+.homepage-up {
+    font-size: 2rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1rem;
+    /* Adjust as needed */
+    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+.homepage {
+    font-size: 2rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1rem;
+    /* Adjust as needed */
+    animation: typing 5s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+.homepage span {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2.6rem;
+    letter-spacing: .2rem;
+    color: rgb(247, 104, 48);
+}
+
+.homepage-sub {
+    font-size: 1.1rem;
+    color: #000000;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    /* The typwriter cursor */
+    white-space: pre;
+    letter-spacing: .1rem;
+    /* Adjust as needed */
+    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.education-container {
+    background-color: #ffffff;
+}
+
+.text-color {
+    color: #404040;
+}
+
+.text-color-2 {
+    color: #404040
+}
+
+.circle {
+    background-color: #349cd8;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.project-container {
+    background-color: #ffffff;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 15px #208fda;
+}
+
+.skill-container {
+    background-image: linear-gradient(to bottom right, #f5f5ef, #fdfff9);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-top: -0.7rem;
+}
+
+.circleSkill {
+    background-color: #fdfff9;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px #208fda;
+}
+
+.circleSkill:hover {
+    box-shadow: 0px 5px 15px #208fda;
+}
+
+.sub-skill-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    color: rgb(247, 104, 48);
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+
+.pos {
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.a-text-color {
+    color: black;
+}
+
+.contact-container {
+    background-color: #0780d1;
+}
+
+.form-color {
+    background-color: #6badda;
+}
+
+.send-btn {
+    background-color: azure;
+    transition-duration: 0.4s;
+}
+
+.send-btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.icon-holder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #4da6ff;
+}
+
+.icon-holder a {
+    text-decoration: none;
+}
+
+.icon-holder:hover {
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(105, 104, 104);
+}
+
+#status {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#status.success {
+    background-color: #4CAF50;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: #cc3014;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.visit-site-btn {
+    background-color: rgb(247, 104, 48);
+    color: #fff;
+}
