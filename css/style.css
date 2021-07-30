@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredericka+the+Great&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&family=Train+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredericka+the+Great&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&family=Train+One&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -23,11 +23,22 @@ h3 {
     margin-left: -23px;
 }
 
-.banner-container {
+#particles-js {
     background-color: #2a2727;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.banner-container {
+    /* background-color: #2a2727; */
     align-items: center;
     justify-content: center;
     color: white;
+    z-index: 3;
 }
 
 .banner-icon {
@@ -48,7 +59,7 @@ h3 {
 }
 
 .name {
-    font-family: 'Arizonia', cursive;
+    font-family: "Arizonia", cursive;
     color: #fdfff9;
     font-weight: normal;
     padding-left: 10px;
@@ -75,8 +86,9 @@ h3 {
 
 .navbar-container {
     top: 0;
-    padding: 10px;
-    position: sticky;
+    left: 0;
+    position: fixed;
+    width: 100%;
     z-index: 2;
     background-color: #2a2727;
 }
@@ -101,9 +113,9 @@ li {
     text-align: center;
     /* The typwriter cursor */
     white-space: pre;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     /* Adjust as needed */
-    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+    /* animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
 
 .homepage {
@@ -115,15 +127,15 @@ li {
     height: 50px;
     /* The typwriter cursor */
     white-space: pre;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     /* Adjust as needed */
-    animation: typing 5s steps(40, end), blank-caret 0.85s step-end infinite;
+    /* animation: typing 5s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
 
 .homepage span {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: "Fredericka the Great", cursive;
     font-size: 2.6rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     color: rgb(247, 104, 48);
 }
 
@@ -136,19 +148,20 @@ li {
     height: 50px;
     /* The typwriter cursor */
     white-space: pre;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     /* Adjust as needed */
-    animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite;
+    /* animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
 
-@keyframes typing {
+
+/* @keyframes typing {
     from {
-        width: 0
+        width: 0;
     }
     to {
-        width: 100%
+        width: 100%;
     }
-}
+} */
 
 .education-container {
     background-color: #ffffff;
@@ -159,7 +172,7 @@ li {
 }
 
 .text-color-2 {
-    color: #404040
+    color: #404040;
 }
 
 .circle {
@@ -215,7 +228,7 @@ li {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     color: rgb(247, 104, 48);
     margin-bottom: 2rem;
     margin-top: -1rem;
@@ -247,7 +260,7 @@ li {
 }
 
 .send-btn:hover {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     /* Green */
     color: white;
 }
@@ -284,7 +297,7 @@ li {
 }
 
 #status.success {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     animation: status 4s ease forwards;
 }
 
