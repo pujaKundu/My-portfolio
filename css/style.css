@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredericka+the+Great&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Comfortaa:wght@300&family=Great+Vibes&family=KoHo&family=Noto+Sans+JP&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -111,11 +111,8 @@ li {
     overflow: hidden;
     margin: 0 auto;
     text-align: center;
-    /* The typwriter cursor */
     white-space: pre;
     letter-spacing: 0.1rem;
-    /* Adjust as needed */
-    /* animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
 
 .homepage {
@@ -125,11 +122,8 @@ li {
     margin: 0 auto;
     text-align: center;
     height: 50px;
-    /* The typwriter cursor */
     white-space: pre;
     letter-spacing: 0.1rem;
-    /* Adjust as needed */
-    /* animation: typing 5s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
 
 .homepage span {
@@ -146,25 +140,23 @@ li {
     margin: 0 auto;
     text-align: center;
     height: 50px;
-    /* The typwriter cursor */
     white-space: pre;
     letter-spacing: 0.1rem;
-    /* Adjust as needed */
-    /* animation: typing 8s steps(40, end), blank-caret 0.85s step-end infinite; */
 }
-
-
-/* @keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-} */
 
 .education-container {
     background-color: #ffffff;
+}
+
+.edu-card {
+    background-color: #2a2727;
+    border: 2px solid #349cd8;
+    color: white;
+    border-radius: 10px;
+}
+
+.edu-sub-title {
+    color: rgb(247, 104, 48);
 }
 
 .text-color {
@@ -274,6 +266,7 @@ li {
     font-size: 40px;
     text-align: center;
     color: #4da6ff;
+    margin: 1%;
 }
 
 .icon-holder a {
